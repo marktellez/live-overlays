@@ -8,6 +8,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {},
+      fontFamily: {
+        lucky: ["LuckiestGuy"],
+      },
     },
   },
   variants: {

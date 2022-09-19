@@ -25,7 +25,7 @@ export default function Homepage() {
 
   return (
     <div className="mt-16 container mx-auto">
-      <div className="font-lucky text-[200px]">
+      <div className="font-lucky text-[200px] text-center">
         {pad(hours)}:{pad(minutes)}:{pad(seconds)}
       </div>
     </div>

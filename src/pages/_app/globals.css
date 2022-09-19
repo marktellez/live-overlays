@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "LuckiestGuy";
+  src: url("/luckiest-guy.woff") format("woff");
+}
+
 body {
   @apply text-white bg-gray-900;
 }
